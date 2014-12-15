@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chat</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div class="main">
+			<div class="welcome-header">
+				<h1>Welcome to this awesome chatroom app</h1>
+			</div>
+			<div class="enter-room">
+				<form id="enter-room" method="GET" action="/room">
+					<input type="text" class="room-number" placeholder="Enter room number"/>
+					<input type="submit" value="Join room"/>
+				</form>
+			</div>
+			<div class="create-room">
+				<form id="new-room" method="POST" action="/room">
+					<input type="submit" value="Create new room"/>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
+
